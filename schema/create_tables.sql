@@ -12,7 +12,7 @@ CREATE TABLE country (
     name VARCHAR(50) NOT NULL,
     continentId INT,
     area BIGINT,
-    ISO code CHAR(2) UNIQUE,
+    ISOcode CHAR(2) UNIQUE,
     FOREIGN KEY (continentId) REFERENCES continent(continentId)
 );
 
