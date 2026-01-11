@@ -221,14 +221,12 @@ INSERT INTO country (countryId, name, continentId, superficie, codeIso) VALUES
 
 INSERT INTO metrics (name) VALUES
 ('Population'),
-('Urbanization rate'),
-('GDP'),
-('GDP per capita'),
-('Road network quality'),
-('Port infrastructure score'),
-('Electricity access'),
-('Political stability index'),
-('Labor cost');
+('E-commerce Market Size (USD Bn)'),
+('Internet Penetration (%)'),
+('GDP (USD Bn)'),
+('GDP per Capita (USD)'),
+('GDP Growth (%)'),
+('E-commerce Growth (%)');
 
 
 
